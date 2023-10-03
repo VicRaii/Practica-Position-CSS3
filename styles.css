@@ -1,0 +1,67 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #1d1d1d;
+  color: #9ad79b;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(118, 116, 116, 0.8);
+  z-index: 1000;
+}
+
+main {
+  padding-top: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  padding: 10px;
+  position: absolute;
+}
+
+aside {
+  padding: 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.features {
+  padding: 10px;
+  position: relative;
+  top: 180px;
+  left: 40%;
+  width: fit-content;
+  height: auto;
+}
+.features,
+.feature {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+  padding: 10px;
+}
